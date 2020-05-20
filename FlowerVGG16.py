@@ -7,6 +7,7 @@
 
 # In[ ]:
 
+print('Flower Classifier Created auto')
 
 from keras.applications import VGG16
 
