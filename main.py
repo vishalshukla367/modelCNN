@@ -5,7 +5,7 @@ import os
 def add_layer(model):
 	model.add(Dense(8, activation='relu'))
 # load the dataset
-dataset = loadtxt(r'/usr/pima-indians-diabetes.csv', delimiter=',')
+dataset = loadtxt(r'/usr/mlcnn/pima-indians-diabetes.csv', delimiter=',')
 # split into input (X) and output (y) variables
 print(" new add jiiiiiiiii sir jiii")
 X = dataset[:,0:8]
