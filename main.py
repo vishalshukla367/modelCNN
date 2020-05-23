@@ -23,4 +23,4 @@ model.fit(X, y, epochs=150, batch_size=10)
 # evaluate the keras model
 _, accuracy = model.evaluate(X, y)
 print('Accuracy: %.2f' % (accuracy*100))
-os.system('echo {} | cat >> /usr/accuracy.txt'.format(str((accuracy*100))))
+os.system('echo {} | cat >> /usr/mlcnn/accuracy.txt'.format(str((accuracy*100))))
