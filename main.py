@@ -14,7 +14,7 @@ y = dataset[:,8]
 model = Sequential()
 model.add(Dense(12, input_dim=8, activation='relu'))
 add_layer(model)
-mode.summary()
+model.summary()
 model.add(Dense(1, activation='sigmoid'))
 # compile the keras model
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
