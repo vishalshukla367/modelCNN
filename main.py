@@ -8,7 +8,7 @@ def add_layer(model):
 # load the dataset
 dataset = loadtxt(r'/usr/mlcnn/pima-indians-diabetes.csv', delimiter=',')
 # split into input (X) and output (y) variables
-print("Welcomne ! yes ,so now final testing")
+print("Welcomne ! yes ho bhaisab tk ,so now final testing")
 X = dataset[:,0:8]
 y = dataset[:,8]
 # define the keras model
