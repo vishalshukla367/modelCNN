@@ -7,7 +7,7 @@ def add_layer(model):
 # load the dataset
 dataset = loadtxt(r'/usr/mlcnn/pima-indians-diabetes.csv', delimiter=',')
 # split into input (X) and output (y) variables
-print("Welcomne ! This is new Auto jenkins system")
+print("Welcomne !  new line This is new Auto jenkins system")
 X = dataset[:,0:8]
 y = dataset[:,8]
 # define the keras model
